@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-orange{
+    background-color: orange;
+}
+
+.white{
+    color: white;
+}
+
+.font-family{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.col-20{
+    width: 20%;
+}
+
+.col-60{
+    width: 60%;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.jc-right{
+    justify-content: flex-end;
+}
+
+.padding-10{
+    padding: 10px;
+}
+
+.height-60{
+    height: 60px;
+}
+
+.height-30{
+    height: 30px;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
