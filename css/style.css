@@ -24,6 +24,10 @@
     background-color: white;
 }
 
+.bg-black{
+    background-color: black;
+}
+
 .white{
     color: white;
 }
@@ -163,4 +167,8 @@ img{
 
 .text-line{
     text-decoration-line: line-through;
+}
+
+.margin-top-150{
+    margin-top: 150px;
 }
