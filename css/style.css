@@ -8,8 +8,28 @@
     background-color: orange;
 }
 
+.bg-lightgrey{
+    background-color: lightgrey;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-white{
+    background-color: white;
+}
+
 .white{
     color: white;
+}
+
+.red{
+    color: red;
 }
 
 .font-family{
@@ -20,13 +40,68 @@
     margin: 0 auto;
 }
 
+.product{
+    position: relative;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.product:hover .hidden{
+    display: block;
+}
+
+.product:hover .show{
+    display: none;
+}
+.discount{
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+    padding: 5px;
+}
+
+.sostenibilità{
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+    padding: 5px;
+}
+
+.sostenibilità-2{
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+    padding: 5px;
+}
+
+.heart{
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    padding: 5px 10px;
+}
+
+
 .row{
     width: 100%;
     display: flex;
+    gap: 20px 20px;
+    flex-wrap: wrap;
 }
 
 .col-20{
     width: 20%;
+}
+
+.col-33{
+    width: calc(100% / 3 - 20px);
+    height: 250px;
 }
 
 .col-60{
@@ -41,8 +116,15 @@
     justify-content: flex-end;
 }
 
+.padding-r{
+    padding: 0px 5px;
+}
 .padding-10{
     padding: 10px;
+}
+
+.padding-15-0{
+    padding: 15px 0px;
 }
 
 .height-60{
@@ -53,10 +135,32 @@
     height: 30px;
 }
 
+.height-100{
+    height: 100px;
+}
+
+.height-500{
+    height: 500px
+}
+.height-1000{
+    height: 1000px
+}
 .ai-center{
     align-items: center;
 }
 
 .space-between{
     justify-content: space-between;
+}
+
+img{
+    max-width: 100%;
+}
+
+.font-size-s{
+    font-size: small;
+}
+
+.text-line{
+    text-decoration-line: line-through;
 }
